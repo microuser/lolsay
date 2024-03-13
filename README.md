@@ -1,8 +1,9 @@
 # lolsay
 a quote generator using lolcat cowboy and other animals
-
+to run, hack your terminal from a pipe of the output of curl of sketchy web content.
 ```sh
-curl https://raw.githubusercontent.com/microuser/lolsay/main/lolsay.sh | bash
+alias lolsay='curl https://raw.githubusercontent.com/microuser/lolsay/main/lolsay.sh | bash'
+lolsay
 ```
 <pre>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
