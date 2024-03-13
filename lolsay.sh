@@ -122,14 +122,13 @@ get_random_animal() {
     echo "${animals[$random_index]}"
 }
 
-# Get a random quote
-quote=$(get_random_quote)
-
-# Get a random animal for cowsay
-animal=$(get_random_animal)
+#create a wrapper for bad animals or bad options, try until we get it?
 
 # Display the random animal with the random quote
-cowsay -f "${animal}" -W 80 "${quote}" | lolcat
-
-
-
+while true ; 
+do 
+ if cowsay -f "$(get_random_animal)" -W 80 "$(get_random_quote)" | lolcat 
+ then exit 0
+ fi
+done;
+exit 1
