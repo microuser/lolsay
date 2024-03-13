@@ -8,6 +8,7 @@ then in the same terminal
 ```sh
 lolsay
 ````
+<img width="589" alt="image" src="https://github.com/microuser/lolsay/assets/4298497/1dbbd13e-0532-4a26-8242-24b706b1baff">
 
 <img width="637" alt="image" src="https://github.com/microuser/lolsay/assets/4298497/f6d2329e-74fc-44b2-a2bd-6a67c4023544">
 
