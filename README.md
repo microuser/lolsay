@@ -3,8 +3,12 @@ a quote generator using lolcat cowsay with other animals
 to run, hack your terminal from a pipe of the output of curl of sketchy web content.
 ```sh
 alias lolsay='curl --silent https://raw.githubusercontent.com/microuser/lolsay/main/lolsay.sh | bash' ; 
-lolsay
 ```
+then in the same terminal
+```sh
+lolsay
+````
+
 <pre>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
