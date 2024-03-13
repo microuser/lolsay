@@ -9,6 +9,9 @@ then in the same terminal
 lolsay
 ````
 
+<img width="637" alt="image" src="https://github.com/microuser/lolsay/assets/4298497/f6d2329e-74fc-44b2-a2bd-6a67c4023544">
+
+
 <pre>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
