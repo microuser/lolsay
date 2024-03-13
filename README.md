@@ -2,7 +2,7 @@
 a quote generator using lolcat cowsay with other animals
 to run, hack your terminal from a pipe of the output of curl of sketchy web content.
 ```sh
-alias lolsay='curl https://raw.githubusercontent.com/microuser/lolsay/main/lolsay.sh | bash' ; 
+alias lolsay='curl --silent https://raw.githubusercontent.com/microuser/lolsay/main/lolsay.sh | bash' ; 
 lolsay
 ```
 <pre>
