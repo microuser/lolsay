@@ -129,7 +129,7 @@ quote=$(get_random_quote)
 animal=$(get_random_animal)
 
 # Display the random animal with the random quote
-cowsay -f "${animal}" -W 80 "${quote}" | lolcat -a -d 0.1
+cowsay -f "${animal}" -W 80 "${quote}" | lolcat
 
 
 
